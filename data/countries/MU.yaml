@@ -1,0 +1,270 @@
+# @attrib https://en.wikipedia.org/wiki/Public_holidays_in_Mauritius
+# @source https://pmo.govmu.org/Communique/Notice-Public_Holidays_2025.pdf
+# @source https://pmo.govmu.org/Communique/GN_No._1195-Public_Holidays_2026.pdf
+holidays:
+  MU:
+    names:
+      en: Mauritius
+      fr: Maurice
+    langs:
+      - en
+      - fr
+    zones:
+      - Indian/Mauritius
+    dayoff: sunday
+    days:
+      01-01:
+        name:
+          en: New Year's Day
+          fr: Jour de l'an
+        type: public
+      01-02:
+        name:
+          en: New Year Holiday
+          fr: Lendemain du Jour de l'an
+        type: public
+      02-01:
+        name:
+          en: Abolition of Slavery
+          fr: Abolition de l'esclavage
+        type: public
+      03-12:
+        name:
+          en: National Day
+          fr: Fête nationale
+        type: public
+      05-01:
+        name:
+          en: Labour Day
+          fr: Fête du Travail
+        type: public
+      11-01:
+        name:
+          en: All Saints' Day
+          fr: Toussaint
+        type: public
+      11-02:
+        name:
+          en: Arrival of Indentured Labourers
+          fr: Arrivée des travailleurs engagés
+        type: public
+      12-25:
+        name:
+          en: Christmas Day
+          fr: Noël
+        type: public
+      1 Shawwal:
+        name:
+          en: Eid-Ul-Fitr
+          fr: Eid-Ul-Fitr
+        type: public
+        # Corrections PMO Mauritius (décrets officiels)
+        # @source https://pmo.govmu.org/Communique/Notice-Public_Holidays_2025.pdf
+        # @source https://pmo.govmu.org/Communique/GN_No._1195-Public_Holidays_2026.pdf
+        disable:
+          - "2025-03-30"
+          - "2026-03-20"
+        enable:
+          - "2025-03-31"
+          - "2026-03-21"
+      chinese 01-0-01:
+        name:
+          en: Chinese Spring Festival
+          fr: Fête du Printemps chinois
+        type: public
+      # Thaipoosam Cavadee — dates par année (2020–2050)
+      # Sources 2025 & 2026 : décrets PMO Mauritius. Autres années : calculs astronomiques miroir fork Yasumi.
+      "2020-02-08": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2021-01-28": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2022-01-18": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2023-02-05": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2024-01-25": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2025-02-11": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2026-02-01": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2027-01-20": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2028-02-08": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2029-01-28": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2030-01-17": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2031-02-05": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2032-01-26": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2033-02-13": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2034-02-02": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2035-01-22": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2036-02-10": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2037-01-30": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2038-01-19": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2039-02-07": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2040-01-27": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2041-02-14": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2042-02-03": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2043-01-23": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2044-02-11": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2045-01-31": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2046-01-20": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2047-02-08": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2048-01-28": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2049-01-16": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      "2050-02-04": { name: { en: Thaipoosam Cavadee, fr: Thaipoosam Cavadee }, type: public }
+      # Maha Shivaratree — dates par année (2020–2050)
+      "2020-02-21": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2021-03-11": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2022-03-01": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2023-02-18": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2024-03-08": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2025-02-26": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2026-02-15": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2027-03-07": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2028-02-25": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2029-02-14": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2030-03-05": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2031-02-21": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2032-03-11": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2033-02-28": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2034-02-17": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2035-03-08": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2036-02-26": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2037-02-14": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2038-03-05": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2039-02-22": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2040-03-12": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2041-03-01": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2042-02-18": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2043-03-09": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2044-02-28": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2045-02-16": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2046-03-07": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2047-02-24": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2048-02-14": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2049-03-04": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      "2050-02-21": { name: { en: Maha Shivaratree, fr: Maha Shivaratree }, type: public }
+      # Ugadi — dates par année (2020–2050)
+      "2020-03-25": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2021-04-13": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2022-04-02": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2023-03-22": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2024-04-09": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2025-03-30": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2026-03-19": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2027-04-07": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2028-03-26": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2029-04-14": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2030-04-03": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2031-03-23": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2032-04-11": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2033-03-31": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2034-03-21": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2035-04-09": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2036-03-28": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2037-03-17": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2038-04-05": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2039-03-25": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2040-04-13": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2041-04-02": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2042-03-22": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2043-04-10": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2044-03-30": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2045-03-19": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2046-04-07": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2047-03-27": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2048-04-15": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2049-04-04": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      "2050-03-24": { name: { en: Ugadi, fr: Ugadi }, type: public }
+      # Ganesh Chaturthi — dates par année (2020–2050)
+      "2020-08-22": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2021-09-10": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2022-08-31": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2023-09-18": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2024-09-07": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2025-08-28": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2026-09-16": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2027-09-05": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2028-08-24": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2029-09-12": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2030-09-01": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2031-09-20": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2032-09-09": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2033-08-29": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2034-09-17": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2035-09-07": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2036-08-26": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2037-09-13": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2038-09-03": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2039-09-22": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2040-09-11": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2041-08-31": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2042-09-18": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2043-09-08": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2044-08-27": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2045-09-15": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2046-09-05": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2047-08-26": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2048-09-12": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2049-09-01": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      "2050-09-20": { name: { en: Ganesh Chaturthi, fr: Ganesh Chaturthi }, type: public }
+      # Divali — dates par année (2020–2050)
+      "2020-11-14": { name: { en: Divali, fr: Divali }, type: public }
+      "2021-11-04": { name: { en: Divali, fr: Divali }, type: public }
+      "2022-10-24": { name: { en: Divali, fr: Divali }, type: public }
+      "2023-11-13": { name: { en: Divali, fr: Divali }, type: public }
+      "2024-11-01": { name: { en: Divali, fr: Divali }, type: public }
+      "2025-10-20": { name: { en: Divali, fr: Divali }, type: public }
+      "2026-11-08": { name: { en: Divali, fr: Divali }, type: public }
+      "2027-10-29": { name: { en: Divali, fr: Divali }, type: public }
+      "2028-10-17": { name: { en: Divali, fr: Divali }, type: public }
+      "2029-11-05": { name: { en: Divali, fr: Divali }, type: public }
+      "2030-10-26": { name: { en: Divali, fr: Divali }, type: public }
+      "2031-11-14": { name: { en: Divali, fr: Divali }, type: public }
+      "2032-11-02": { name: { en: Divali, fr: Divali }, type: public }
+      "2033-10-22": { name: { en: Divali, fr: Divali }, type: public }
+      "2034-11-10": { name: { en: Divali, fr: Divali }, type: public }
+      "2035-10-30": { name: { en: Divali, fr: Divali }, type: public }
+      "2036-10-19": { name: { en: Divali, fr: Divali }, type: public }
+      "2037-11-07": { name: { en: Divali, fr: Divali }, type: public }
+      "2038-10-28": { name: { en: Divali, fr: Divali }, type: public }
+      "2039-10-18": { name: { en: Divali, fr: Divali }, type: public }
+      "2040-11-05": { name: { en: Divali, fr: Divali }, type: public }
+      "2041-10-25": { name: { en: Divali, fr: Divali }, type: public }
+      "2042-11-12": { name: { en: Divali, fr: Divali }, type: public }
+      "2043-11-01": { name: { en: Divali, fr: Divali }, type: public }
+      "2044-10-21": { name: { en: Divali, fr: Divali }, type: public }
+      "2045-11-08": { name: { en: Divali, fr: Divali }, type: public }
+      "2046-10-29": { name: { en: Divali, fr: Divali }, type: public }
+      "2047-10-18": { name: { en: Divali, fr: Divali }, type: public }
+      "2048-11-05": { name: { en: Divali, fr: Divali }, type: public }
+      "2049-10-26": { name: { en: Divali, fr: Divali }, type: public }
+      "2050-10-15": { name: { en: Divali, fr: Divali }, type: public }
+    states:
+      AG:
+        name: Agaléga
+      BL:
+        name: Rivière Noire
+      BR:
+        name: Beau-Bassin Rose-Hill
+      CC:
+        name: Cargados Carajos
+      CU:
+        name: Curepipe
+      FL:
+        name: Flacq
+      GP:
+        name: Grand Port
+      MO:
+        name: Moka
+      PA:
+        name: Pamplemousses
+      PL:
+        name: Port Louis District
+      PU:
+        name: Port Louis
+      PW:
+        name: Plaines Wilhems
+      QB:
+        name: Quatre Bornes
+      RO:
+        name: Rodrigues
+      RR:
+        name: Rivière du Rempart
+      SA:
+        name: Savanne
+      VP:
+        name: Vacoas-Phoenix
